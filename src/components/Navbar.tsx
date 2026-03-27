@@ -25,10 +25,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-violet-300 dark:bg-gray-950 shadow-md transition-colors duration-300">
+    <nav className="w-full bg-indigo-300 dark:bg-gray-950 shadow-md transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <h1 className="text-xl font-bold text-gray-800 dark:text-gray-100">
-          My Portfolio
+          Portfolio
         </h1>
 
         <div className="flex items-center gap-8">
