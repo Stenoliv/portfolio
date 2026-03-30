@@ -5,7 +5,7 @@ import projectImg1 from "../images/recsys1.png";
 import predan from "../images/predan.png";
 import ppodriving from "../video/ppo_driving.mp4";
 import luminactiytrailer from "../video/Luminacity_Trailer.mp4";
-import SubTrackr from "../images/subtrackr.png";
+import SubTrackr from "../images/SubTrackr.png";
 
 export const projects: Project[] = [
   {
