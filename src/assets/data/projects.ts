@@ -5,6 +5,7 @@ import projectImg1 from "../images/recsys1.png";
 import predan from "../images/predan.png";
 import ppodriving from "../video/ppo_driving.mp4";
 import luminactiytrailer from "../video/Luminacity_Trailer.mp4";
+import SubTrackr from "../images/subtrackr.png";
 
 export const projects: Project[] = [
   {
@@ -81,5 +82,20 @@ export const projects: Project[] = [
       "Collaborated with the development team to ensure smooth integration of game features.",
     ],
     link:"https://github.com/Stenoliv/Luminacity"
+  },
+  {
+    title: "Thesis: SubTrackr - Subscription tracking app",
+    type: "image",
+    media: SubTrackr,
+    tech: ["React-Native", "Tailwind CSS", "Figma", "Python", "PostgreSQL", "FastAPI"],
+    role: "My Theisis project",
+    description:
+      "For my theisi conducted a user study to understand the needs and pain points of users when it comes to managing their subscriptions. Based on the findings, I designed and developed SubTrackr, a subscription tracking app that helps users keep track of their subscriptions, manage their expenses, and recommedns subscriptions to cancel based on their usage.",
+    contributions: [
+      "Conducted user research and analysis to identify key features and design requirements for the subscription tracking app.",
+      "Designed and implemented the frontend of the app using React-Native and Tailwind CSS, creating an intuitive and user-friendly interface.",
+      "Designed and implemented the backend using Python, FastAPI, and PostgreSQL to handle user data, subscription management, and recommendation algorithms.",
+    ],
+    link:"https://github.com/Stenoliv/SubTrackr_FE"
   },
 ];
